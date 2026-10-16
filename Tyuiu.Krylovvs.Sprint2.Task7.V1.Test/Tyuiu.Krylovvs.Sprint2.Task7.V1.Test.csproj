@@ -24,7 +24,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\..\..\..\tyuiu.cources.programming.interfaces.dll" />
-	</ItemGroup>
+	</ItemGroup>z
 
   <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
