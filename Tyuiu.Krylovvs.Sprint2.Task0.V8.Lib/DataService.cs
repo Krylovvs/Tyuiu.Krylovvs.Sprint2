@@ -9,8 +9,8 @@ namespace Tyuiu.Krylovvs.Sprint2.Task0.V8.Lib
         {
             bool[] Result =
             {
-                x == y,
-                x != y,
+                x == y - 66,
+                x != y - 66,
                 x < y,
                 x > y,
                 x <= y,

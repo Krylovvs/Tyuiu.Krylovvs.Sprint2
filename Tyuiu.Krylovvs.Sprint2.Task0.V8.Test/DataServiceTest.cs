@@ -11,7 +11,7 @@ namespace Tyuiu.Krylovvs.Sprint2.Task0.V8.Test
             DataService ds = new DataService();
 
             int x = 185, y = 251;
-            bool[] Exected = { false, true, true, false, true, false };
+            bool[] Exected = { true, false, true, false, true, false };
 
             Assert.AreEqual(
                 Exected,
