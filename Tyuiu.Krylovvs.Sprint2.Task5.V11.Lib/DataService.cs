@@ -19,7 +19,7 @@ namespace Tyuiu.Krylovvs.Sprint2.Task5.V11.Lib
                     break;
                 case 2:
                     ThreeGreenDay = 28;
-                    break;          
+                    break;
             }
 
             if (n < ThreeGreenDay)
