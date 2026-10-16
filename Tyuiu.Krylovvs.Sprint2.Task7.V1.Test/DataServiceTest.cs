@@ -1,4 +1,4 @@
-﻿using tyuiu.cources.programming.interfaces.dll;
+﻿using Tyuiu.Krylovvs.Sprint2.Task7.V1.Lib;
 
 namespace Tyuiu.Krylovvs.Sprint2.Task7.V1.Test
 {

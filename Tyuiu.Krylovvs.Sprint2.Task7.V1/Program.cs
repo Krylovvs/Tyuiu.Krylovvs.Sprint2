@@ -1,5 +1,5 @@
 ﻿using System.Text;
-using tyuiu.cources.programming.interfaces.dll;
+using Tyuiu.Krylovvs.Sprint2.Task7.V1.Lib;
 
 double x, y;
 

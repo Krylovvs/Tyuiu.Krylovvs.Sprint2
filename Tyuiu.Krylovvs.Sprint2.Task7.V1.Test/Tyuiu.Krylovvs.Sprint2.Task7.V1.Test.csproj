@@ -22,9 +22,9 @@
     <PackageReference Include="MSTest" Version="3.6.4" />
   </ItemGroup>
 
-	<ItemGroup>
-		<ProjectReference Include="..\..\..\..\tyuiu.cources.programming.interfaces.dll" />
-	</ItemGroup>z
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.Krylovvs.Sprint2.Task7.V1.Lib\Tyuiu.Krylovvs.Sprint2.Task7.V1.Lib.csproj" />
+  </ItemGroup>
 
   <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
