@@ -13,9 +13,9 @@ namespace Tyuiu.Krylovvs.Sprint2.Task6.V11.Test
         public void DataFinderTestMethod(
             int g, int m, int n, string Expected)
         {
-            var service = new DataService();
+            var ds = new DataService();
 
-            string Actual = service.FindDateOfNextDay(g, m, n);
+            string Actual = ds.FindDateOfNextDay(g, m, n);
 
             Assert.AreEqual(Expected, Actual);
         }
