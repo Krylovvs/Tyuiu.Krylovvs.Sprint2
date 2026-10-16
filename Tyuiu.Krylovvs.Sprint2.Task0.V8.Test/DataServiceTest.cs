@@ -13,9 +13,11 @@ namespace Tyuiu.Krylovvs.Sprint2.Task0.V8.Test
             int x = 185, y = 251;
             bool[] Exected = { true, false, true, false, true, false };
 
-            Assert.AreEqual(
+            CollectionAssert.AreEqual(
                 Exected,
                 ds.GetCompareOperations(x, y));
+
+           
         }
     }
 }

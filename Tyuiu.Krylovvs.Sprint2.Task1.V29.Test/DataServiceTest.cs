@@ -1,4 +1,4 @@
-﻿using Tyuiu.Krylovvs.Sprint2.Task0.V8.Lib;
+﻿using Tyuiu.Krylovvs.Sprint2.Task1.V29.Lib;
 
 namespace Tyuiu.Krylovvs.Sprint2.Task1.V29.Test
 {
@@ -10,12 +10,12 @@ namespace Tyuiu.Krylovvs.Sprint2.Task1.V29.Test
         {
             DataService ds = new DataService();
 
-            int x = 185, y = 251;
-            bool[] Exected = { false, true, true, false, true, false };
+            int a = 657, b = 654, c = 657, d = 657;
+            bool[] Exected = { true, true, true, false, true, true };
 
-            Assert.AreEqual(
+            CollectionAssert.AreEqual(
                 Exected,
-                ds.GetCompareOperations(x, y));
+                ds.GetLogicOperations(a, b, c, d));
         }
     }
 }
